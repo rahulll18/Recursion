@@ -3,6 +3,8 @@ using namespace std;
 
 bool binarySearch(int arr[], int s, int e, int key)
 {
+
+    // Base Case
     if (s > e)
         return false;
 
@@ -28,7 +30,7 @@ int main()
     int size = 6;
     int key = 10;
 
-    bool ans = binarySearch(arr, 0, size-1, key);
+    bool ans = binarySearch(arr, 0, size - 1, key);
     if (ans)
     {
         cout << "Key is Present" << endl;

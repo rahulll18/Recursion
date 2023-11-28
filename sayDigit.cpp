@@ -12,11 +12,11 @@ void sayDigit(int n, string arr[])
     // Processing
     int digit = n % 10;
     n = n / 10;
-    // cout << arr[digit] << " ";
+    cout << arr[digit] << " ";
 
     // Recursive Call
     sayDigit(n, arr);
-    cout << arr[digit] << " ";
+    // cout << arr[digit] << " ";
 }
 int main()
 {
