@@ -51,6 +51,9 @@ void mergeArray(int *arr, int s, int e, int mid)
     {
         arr[startIndex++] = second[j++];
     }
+
+    delete[] first;
+    delete[] second;
 }
 
 void mergSort(int *arr, int s, int e)
